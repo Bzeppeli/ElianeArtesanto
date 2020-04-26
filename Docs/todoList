@@ -1,0 +1,87 @@
+					To do List ElianeArtesanato(E-Commerce)
+		#AUTENTICAÇÃO
+
+1. Cadastro de administrador
+
+2. Cadastro de Cliente
+	2.1 cadastro com facebook/Google
+
+3. login de Administrado
+	3.1 Edição de email
+	3.2 Edição de senha
+	3.3 Edição de dados para contato
+		3.4.1 Necessária autenticação com envio de token para um(uns) email de segurança(no caso a 									     dona da loja tem que estar entre eles).
+	3.4 Adição de Administradores
+
+4. Login de Cliente
+	4.1 Edição de Email
+	4.2 Edição de Senha
+	4.3 Atualização de Dados para contato
+		4.3.1 Necessário acessar Email e Senha para verificação de identidade 
+
+				#PRODUTOS
+		#ADMINISTRADOR
+
+administrador: 
+	nome,
+	cpf,
+	data_nascimento,
+	email,
+	endereço,
+	produtos_adicionados,
+	produtos_removidos,
+
+produto:
+	nome,
+	preço,
+	quantidade,
+	categoria,
+	quantidade_vendidos,
+	
+	
+
+1. Adicionar Produtos
+
+2. Remover Produtos
+
+3. Atualizar
+
+4. listar Produtos
+
+5. Buscar produtos
+
+6. Criar uma Categoria
+
+
+		#Cliente
+
+Cliente: 
+	nome,
+	email,
+	telefone,
+	data_nascimento,
+	cpf,
+	endereço,
+	quantidade_gasto
+	
+1. Adicionar produtos no carrinho
+
+2. remover do carrinho
+
+3. fazer uma compra unica
+
+4. fazer compra de varios
+
+5. forma de pagamento
+	5.1 cartão
+		5.1.1 debito
+		5.1.2 parcelado
+	5.2 a vista(boleto)
+6. cancelar a compra
+
+7. salvar o pedido
+
+8. historico de compras
+
+
+
